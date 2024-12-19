@@ -1,14 +1,14 @@
 ---
 layout: home
-title: "Stat 999: Course Overview"
+title: "Stat 214: Data Analysis and Machine Learning for Real-World Decision Making"
 nav_exclude: true
 permalink: /:path/
 seo:
   type: Course
-  name: "Stat 999: Course Overview"
+  name: "Stat 214: Data Analysis and Machine Learning for Real-World Decision Making"
 ---
 
-# Stat 999: Course Overview
+# Stat 214: Data Analysis and Machine Learning for Real-World Decision Making
 {: .mb-2 }
 UC Berkeley
 {: .mb-0 .fs-6 .text-grey-dk-000 }
@@ -24,40 +24,12 @@ UC Berkeley
 
 ## Overview
 
-This is a GitHub Pages template based on Just the Class, developed for the
-purpose of quickly deploying course overview websites. Such websites link to
-previous course offerings, provide a summary of what the course is about,
-and may list learning goals and prerequisites. This overview section would
-normally be replaced by the description of a specific course, and could
-include information from the [Berkeley Academic
-Guide](https://guide.berkeley.edu/courses/stat/).
-
-### Configuration
-After instantiating this template, set the following secrets and variables
-in the new repository.
-
-| Type     | Required | Name                 | Value |
-|----------|----------|----------------------|-------|
-| Secret   | Yes      | SIS_COURSE_API_ID    | `app_id` of [Course API credential](https://developers.api.berkeley.edu/api/100/credentials) |
-| Secret   | Yes      | SIS_COURSE_API_KEY   | `app_key` of [Course API credential](https://developers.api.berkeley.edu/api/100/credentials) |
-| Variable | Yes      | SIS_SUBJECT_AREA     | SIS subject area code, e.g. `STAT` |
-| Variable | Yes      | SIS_COURSE_NUMBER    | SIS course number, e.g. `243` |
-| Variable | Yes      | GIT_NAME             | Git `user.name` for GitHub Action commits, e.g. `GitHub Actions` |
-| Variable | Yes      | GIT_EMAIL            | Git `user.email` for GitHub Action commits, e.g. `unit@dept.berkeley.edu` |
-| Variable | No       | GOOGLE_ANALYTICS_TAG | Google Analytics tag(s), e.g. `G-...` |
-| Variable | No       | AUTHOR               | Jekyll website author, e.g. `Course Staff` |
-| Variable | No       | COURSE_DATA_FILE     | Path to YAML file, e.g. `.github/scripts/override.yml`, containing SIS course data. Data in this file will override anything retrieved from the SIS. |
-
+This is an MA class in statistics. Students will be engaged in open-ended data projects for decision making to solve domain problems. It mirrors the entire data science life cycle in practice, including problem formulation, data cleaning, exploratory data analysis, statistical and machine learning modeling and computational techniques, and interpretation of results in context. It is guided by the Predictability-Computability-Stability (PCS) framework for veridical data science and emphasizes critical thinking and documenting human judgment calls and code. It coaches not only the technical but also communication and teamwork skills in order to obtain responsible and reliable data-driven conclusions for solving complex real world problems.
 
 ## Logistics
 
-(Example from SIS) Three hours of lecture and two hours of laboratory per
-week. Six hours of lecture and three hours of laboratory per week for 8
-weeks.
-
+Three hours of lecture and one hour of discussion per week. 
 
 ## Prerequisites
 
-(Example from SIS) Mathematics 1A, Mathematics 16A, Mathematics 10A/10B,
-or consent of instructor.
-
+Prerequisites: Stat 134 and Stat 135 (or Data C100 and Data C140) or equivalents. Computing prerequisites: Stat 243 or equivalent.
